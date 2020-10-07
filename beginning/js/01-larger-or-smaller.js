@@ -8,5 +8,5 @@ else if (number1 < number2){
     document.write('second number '+number2+' is larger');
 }
 else{
-    document.write('two number is euqal');
+    document.write('two number is euqal to'+number1);
 }

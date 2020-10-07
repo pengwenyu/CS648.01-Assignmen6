@@ -1,9 +1,8 @@
 for(i=0;i<=15;i++){
     if(i%2==0){
-        document.write(i+' is even');
+        window.console.log(i+' is even');
     }
     else{
-        document.write(i+' is odd');
+        window.console.log(i+' is odd');
     }
-    document.write('<br>');
 }

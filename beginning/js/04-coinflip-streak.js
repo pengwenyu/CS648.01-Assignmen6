@@ -3,11 +3,10 @@ do{
     coinFlip=Math.random();
     coinFlip=Math.round(coinFlip);
     if(coinFlip==0){
-        document.write('Heads');
-        document.write('\n');
+        window.console.log('Heads');
     }
     if(coinFlip==1){
-        document.write('Tails');
-        document.write('\n');
+        window.console.log('Tails');
     }
+    window.console.log(' ');
 }while(coinFlip==0)
